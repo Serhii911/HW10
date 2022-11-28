@@ -29,8 +29,7 @@ public class WordsCouunter {
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }
-        return find.toString();
+        }        return find.toString();
     }
 
     public static void main(String[] args) {
